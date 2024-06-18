@@ -212,7 +212,9 @@ section {
     text-align: center;
     margin-bottom: 50px;
 }
-
+.hero p {
+    text-align: center;
+}
 /* Services */
 .service-grid {
     display: grid;
