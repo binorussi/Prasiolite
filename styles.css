@@ -36,7 +36,7 @@
 
 .about-list li::before {
     content: "\2022"; /* Unicode bullet character */
-    color: #007bff; /* Bullet color */
+    color: purple; /* Bullet color */
     font-weight: bold;
     display: inline-block;
     width: 1em;
