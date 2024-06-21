@@ -108,7 +108,7 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #ffffff;
+    background-color:  #B0E57C;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     z-index: 1000;
 }
@@ -130,7 +130,7 @@ nav {
 }
 
 .logo a {
-    color: #333;
+    color: purple;
     font-size: 1.6rem;
     text-decoration: none;
 }
@@ -146,7 +146,7 @@ nav {
 }
 
 .nav-links a {
-    color: #333;
+    color: purple;
     text-decoration: none;
     font-size: 1rem;
     transition: color 0.3s ease;
@@ -604,3 +604,45 @@ section {
     }
 }
 
+/* Base styles for the menu toggle button */
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.menu-toggle .bar {
+    height: 3px;
+    width: 25px;
+    background-color: purple;
+    margin: 4px 0;
+    transition: all 0.3s ease;
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        background-color: #B0E57C;
+    }
+
+    .nav-links li {
+        margin: 0;
+    }
+
+    .nav-links a {
+        padding: 15px;
+        width: 100%;
+        display: block;
+    }
+
+    .menu-toggle {
+        display: flex;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+}
