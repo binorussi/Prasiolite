@@ -306,7 +306,7 @@ section {
 /* Footer */
 .footer {
     background-color: #B0E57C;
-    color: #fff;
+    color: purple;
     padding: 20px 0;
     text-align: center;
 }
@@ -327,7 +327,7 @@ section {
 }
 
 .footer-nav a {
-    color: #fff;
+    color: purple;
     text-decoration: none;
     transition: color 0.3s ease;
 }
